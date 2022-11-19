@@ -1,0 +1,34 @@
+body{
+    margin: 0px; /* css sifirlama yaptik ekranda kenarda kalan default bosluklari kaldirmis olduk */
+    padding: 0px;
+}
+
+.kutu{
+    width: 100px; /* burada ortak class ismini kullanrak ayni sekli verdik*/
+    height: 100px;
+}
+
+.kutu1{
+    background-color: blueviolet;  /* buralarda ise ozel isimleri ile renklerini atadik*/
+}
+
+.kutu2{
+    background-color: chartreuse;
+    flex: 2; /* bununla tum bosluklari kapla dedik*/
+}
+
+.kutu3{
+    background-color: deepskyblue;
+    flex: 3; /* verdigimiz sayi oranlari ile boyutlarini ayarliyor*/
+}
+
+.kutu4{
+    background-color: gold;
+}
+
+.container{
+    display: flex; /* kutulari yan yana getirdi*/
+    flex-direction: row;
+    justify-content: space-between; /*boşluk koyar*/
+}
+
